@@ -52,30 +52,18 @@ WareHouse/
 ├── TestProjectWareHouse.Infrastructure # Доступ к данным, репозитории (EF Core)
 ├── TestProjectWareHouse.Api            # Web API, контроллеры, конфигурация
 └── Client/project                      # React-приложение (Vite + TS)
-🔐 Аутентификация
-В проекте реализована система аутентификации на основе JWT:
-
-Регистрация пользователя
-
 Вход в систему
-
-Обновление access токенов (refresh token)
-
-Защита маршрутов с помощью авторизации
 
 📦 Используемые технологии
 Backend:
 ASP.NET Core 8
 
 Entity Framework Core
-
-JWT (JSON Web Token)
-
 Layered Architecture (Domain, Application, Infrastructure, API)
 
 Swagger (автогенерация документации)
 
-Middleware, Service Layer, DTO Mapping
+ Service Layer, DTO Mapping
 
 Frontend:
 React 18
